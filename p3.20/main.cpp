@@ -46,6 +46,5 @@ int main()
     {
         coupon = 0.14;
     }
-    cout << coupon << " " << spent << endl;
     cout << "You win a discount coupon of $ " << fixed << setprecision(2) << spent * coupon << ". (" << coupon * 100 << "% of your purchase)" << endl;
 }
